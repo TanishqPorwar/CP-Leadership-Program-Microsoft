@@ -2,7 +2,7 @@
 
 River- crossing problem is a really interesting puzzle most of us would have encountered as kids. Although, there are many variations of this problem, the basic objective is to carry items from one river bank to another, usually in the fewest trips. The difficulty of the puzzle may arise from restrictions on which or how many items can be transported at the same time, or which or how many items may be safely left together. 
 
-The first problem I came across, is the famous **Wolf, goat and cabbage problem** . After learning that this puzzle that troubled me as a kid could be solved using **graph theory**, it made me rethink my approach on solving all the river-crossing problems I've ever come. 
+The first problem I came across, is the famous **Wolf, goat and cabbage problem** . After learning that this puzzle that troubled me as a kid could be solved using **graph theory**, it made me rethink my approach on solving all the river-crossing problems I've ever come across. 
 
  Looking at the problems we can formulate that each valid move ( sending boat from riverbank A to riverbank B with one or more objects ) is resulting in a new state and we can reach the goal state by solving a search problem. When we bring the graph perspective to the problem each state becomes a node and state change becomes an edge. So the problem can be solved by expanding nodes with valid moves until we reach the goal node.
 
