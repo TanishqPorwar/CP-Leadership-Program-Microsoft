@@ -26,7 +26,7 @@ So to implement this we need a function that generates all the possible states t
 
 To transition between states, we need to know the position of the boat, as there is only one driver(the farmer), his position can tell us the position of the boat.
 
-To see the implementation click [here](!https://github.com/TanishqPorwar/CP-Leadership-Program-Microsoft/blob/master/Session%202/farmer_problem.ipynb)
+To see the implementation click [here](https://github.com/TanishqPorwar/CP-Leadership-Program-Microsoft/blob/master/Session%202/farmer_problem.ipynb)
 
 ***Problem 2***
 
@@ -48,4 +48,4 @@ I tried to solve this problem using the same approach, but couldn't. Even though
 
 taking these into consideration, I tried to make a generic approach to solve most of the river crossing problems. By just giving the restricted boat, bank states, drivers, boat capacity and the initial state we can get the least number of steps required to cross the river.
 
-To see the implementation click [here](!https://github.com/TanishqPorwar/CP-Leadership-Program-Microsoft/blob/master/Session%202/River_problem.ipynb)
+To see the implementation click [here](https://github.com/TanishqPorwar/CP-Leadership-Program-Microsoft/blob/master/Session%202/River_problem.ipynb)
